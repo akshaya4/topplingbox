@@ -8,10 +8,10 @@ class Box
             'friction'    : 0.3,
             'density'     : 1.0
         }
-        
+        this.body = Bodies.rectangle(x,y,width,height,options);
         this.width = width;
         this.height = height;
-         this.body = Bodies.rectangle(x,y,width,height,options);
+         
         World.add(world,this.body);
     }
 
