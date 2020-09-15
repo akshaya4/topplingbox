@@ -1,7 +1,7 @@
 class Box
 {
     //any new object when created - constructor - built in initializing function is invoked
-    constructor(x,y,width,height)
+    constructor(x,y,width,height){
 
     var options = {
         'restitution':0.8,
